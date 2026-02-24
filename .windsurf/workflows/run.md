@@ -24,3 +24,4 @@ Executes a command as the current non-root user.
 
 - This workflow runs the command without elevated privileges
 - Use this workflow for standard operations that do not require root access
+- Prefer adding a timeout to commands (e.g. `timeout 30 <command>`) to prevent them from running indefinitely
